@@ -2,6 +2,7 @@ import streamlit as st
 import joblib
 import numpy as np
 import os
+import xgboost as xgb
 from sklearn.preprocessing import LabelEncoder
 
 model = joblib.load('2602169926_model_oop.pkl')
